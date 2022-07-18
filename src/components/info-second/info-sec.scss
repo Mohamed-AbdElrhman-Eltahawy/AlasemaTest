@@ -1,0 +1,175 @@
+.sctioon {
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: 200px;
+    width: 790px;
+    flex-direction: row-reverse;
+    margin-left: 500px;
+    margin-top: 120px;
+    background-color: #1f2024;
+    overflow: hidden;
+
+    .info {
+        color: rgb(255, 255, 255);
+
+        h2 {
+            font-size: 28px;
+            font-weight: bold;
+            padding: 15px;
+            border-bottom: 1px solid rgb(177, 0, 0);
+            text-align: right;
+        }
+
+        .content-up {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row-reverse;
+            border-bottom: 1px solid rgb(167, 164, 164);
+            position: relative;
+
+
+            &:before {
+                content: " رياضة";
+                background-color: #b04962;
+                position: absolute;
+                right: 4px;
+                top: 218px;
+                height: 30px;
+                width: 100px;
+                border-radius: 1px;
+                color: #fff;
+                text-align: center;
+                font-weight: bold;
+
+
+            }
+
+
+            img {
+                width: 300px;
+                padding: 20px 15px;
+                margin-right: -45px;
+
+            }
+
+            .txt {
+                color: #fff;
+
+
+                p {
+                    margin-left: 360px;
+                    font-size: 15px;
+                    color: rgb(196, 196, 196);
+                }
+
+                .btn {
+                    margin-left: 350px;
+                    background-color: #cf112d;
+
+                }
+            }
+        }
+
+        .content-middle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid rgb(167, 164, 164);
+            padding-bottom: 20px;
+            padding-top: 20px;
+            position: relative;
+
+
+            &:before {
+                content: "رياضة";
+                background-color: #b04962;
+                position: absolute;
+                right: 4px;
+                top: 100px;
+                height: 20px;
+                width: 80px;
+                border-radius: 1px;
+                color: #fff;
+                text-align: center;
+                font-weight: bold;
+
+
+            }
+
+            p {
+                // margin-left: 360px;
+                font-size: 15px;
+                color: rgb(196, 196, 196);
+
+                margin-left: 130px;
+                font-size: 15px;
+                color: rgb(196, 196, 196);
+
+            }
+
+            h4 {
+                font-size: 18px;
+                margin-right: 4px;
+                padding-top: 5px;
+
+            }
+
+            .btn {
+                margin-left: 105px;
+                background-color: #cf112d;
+
+            }
+
+            .box-left {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row-reverse;
+                margin-right: 19px;
+                position: relative;
+
+                .btn {
+                    margin-left: 110px;
+                    background-color: #cf112d;
+
+                }
+
+                &:before {
+                    content: "رياضة";
+                    background-color: #b04962;
+                    position: absolute;
+                    right: 4px;
+                    top: 72px;
+                    height: 20px;
+                    width: 80px;
+                    border-radius: 1px;
+                    color: #fff;
+                    text-align: center;
+                    font-weight: bold;
+
+
+                }
+            }
+
+            .box-right {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row-reverse;
+            }
+
+            .btn {
+                margin-left: 108px;
+                background-color: #cf112d;
+            }
+
+                img {
+                    width: 150px;
+                    margin-right: 5px;
+                }
+            }
+        }
+
+
+    }

@@ -1,0 +1,156 @@
+.section {
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .Banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            margin-top: -160px;
+            margin-right: 20px;
+            width: 66%;
+
+
+
+
+            .content {
+                height: 400px;
+                width: 790px;
+                overflow: hidden;
+                position: relative;
+
+
+                .images {
+                    height: 100%;
+                    width: 100%;
+
+
+                    &:before {
+                        content: "الاهلي يدك الاسماعيلي برباعيه مستحقه";
+                        background-color: #0000008a;
+                        position: absolute;
+                        right: 0px;
+                        top: 141px;
+                        height: 80px;
+                        width: 780px;
+                        border-radius: 1px;
+                        color: rgb(255, 196, 0);
+                        font-size: 32px;
+                        padding-top: 20px;
+                        // font-weight: bold;
+                    }
+
+
+
+                    img {
+                        height: 100%;
+                        width: 100%;
+
+
+                    }
+                }
+
+
+                .btm-sliders {
+                    position: absolute;
+                    bottom: 20px;
+                    left: 50%;
+                    transform: translatex(-50%);
+                    display: flex;
+
+
+
+
+                    h4 {
+                        color: rgb(255, 255, 255);
+                        height: 85px;
+                        width: 140px;
+                        background-color: rgba(0, 0, 0, 0.478);
+                        margin: 0 3px;
+                        cursor: pointer;
+                        border: 1px solid black;
+                        padding-top: 10px;
+                        position: relative;
+
+
+                        &:after {
+                            content: "news";
+                            background-color: #ce0b0b;
+                            position: absolute;
+                            right: -1px;
+                            top: -21px;
+                            height: 20px;
+                            width: 40px;
+                            border-radius: 1px;
+                        }
+
+
+
+                    }
+                }
+            }
+        }
+
+        .table {
+            width: 30%;
+            .content-left {
+                margin-top: -35px;
+                margin-left: 60px;
+                margin-bottom: 50px;
+
+                ul {
+
+                    color: black;
+                    border: 2px solid rgb(196, 192, 192);
+
+                    h2 {
+                        background-color: black;
+                        color: #fff;
+                        padding: 10px 80px;
+                        font-size: 28px;
+                        font-weight: bold;
+                        position: relative;
+
+                        &:before {
+                            content: "";
+                            background-color: #ce0b0b;
+                            position: absolute;
+                            left: -1px;
+                            top: 0;
+                            height: 48px;
+                            width: 20px;
+                            border-radius: 1px;
+                        }
+                    }
+
+                    li {
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        padding-right: 20px;
+                        flex-direction: row-reverse;
+                        font-size: 16px;
+                        font-weight: bold;
+                        border-bottom: 1px solid rgb(196, 192, 192);
+
+                        span {
+                            color: #fff;
+                        }
+
+                        p {
+                            margin-right: 10px;
+                            font-size: 17px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

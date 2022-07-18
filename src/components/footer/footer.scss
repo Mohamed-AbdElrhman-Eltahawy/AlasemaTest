@@ -1,0 +1,57 @@
+.footer {
+
+    background-color: black;
+    color: var(--white);
+    font-size: var(--fw-400);
+    margin-top: 200px;
+    margin-bottom:10px;
+
+    .container {
+        display: flex;
+        align-items: center;
+
+
+
+        .navbar {
+            width: 30%;
+            float: var(--float-left);
+            display: flex;
+            align-items: center;
+            padding: 6px 0;
+
+            li {
+                padding-right: 20px;
+                font-size: 18px;
+                border-left-color: aqua;
+
+                a {
+                    color: var(--white);
+                    padding: 1.5rem;
+
+
+
+                    &:hover {
+                        background-color: var(--hover-color);
+                    }
+                }
+            }
+        }
+
+        .text {
+            display: flex;
+            margin-left: 20px;
+
+            .copy-right {
+                margin-right: 200px;
+            }
+
+            .web-designer {
+                cursor: pointer;
+
+                .span {
+                    color: var(--color-span);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,250 @@
+.sction {
+    // display: flex;
+    // border: 1px solid black;
+    margin-bottom: 20px;
+    // width: 790px;
+    // margin-left: 500px;
+    margin-top: 80px;
+
+    overflow: hidden;
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row-reverse;
+
+        .right {
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+            background-color: #1f2024;
+            width: 66%;
+
+            img {
+                width: 300px;
+                padding: 20px 15px;
+                // margin-right: -45px;
+
+            }
+
+            h2 {
+                font-size: 28px;
+                font-weight: bold;
+                padding: 15px;
+                border-bottom: 1px solid rgb(177, 0, 0);
+                text-align: right;
+                color: #fff;
+            }
+
+            .content-up {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row-reverse;
+                border-bottom: 1px solid rgb(167, 164, 164);
+                position: relative;
+
+
+                &:before {
+                    content: "أخبار مصر";
+                    background-color: #b04962;
+                    position: absolute;
+                    right: 4px;
+                    top: 142px;
+                    height: 30px;
+                    width: 100px;
+                    border-radius: 1px;
+                    color: #fff;
+                    text-align: center;
+                    font-weight: bold;
+
+
+                }
+
+
+
+
+                .txt {
+                    color: #fff;
+
+
+                    p {
+                        margin-left: 360px;
+                        font-size: 15px;
+                        color: rgb(196, 196, 196);
+                    }
+
+                    .btn {
+                        margin-left: 350px;
+                        background-color: #cf112d;
+
+                    }
+                }
+            }
+
+            .content-down {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                color: #fff;
+            }
+
+            .content-middle {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-bottom: 1px solid rgb(167, 164, 164);
+                padding-bottom: 20px;
+                padding-top: 20px;
+                position: relative;
+                h6 {
+                    color: #fff;
+                }
+
+
+                &:before {
+                    content: "أخبار مصر";
+                    background-color: #b04962;
+                    position: absolute;
+                    right: 4px;
+                    top: 90px;
+                    height: 20px;
+                    width: 80px;
+                    border-radius: 1px;
+                    color: #fff;
+                    text-align: center;
+                    font-weight: bold;
+
+
+                }
+
+                p {
+                    // margin-left: 360px;
+                    font-size: 15px;
+                    color: rgb(196, 196, 196);
+
+                    margin-left: 140px;
+                    font-size: 15px;
+                    color: rgb(196, 196, 196);
+
+                }
+
+                h6 {
+                    font-size: 12px;
+                    margin-right: 4px;
+                    padding-top: 5px;
+                    color: #fff;
+                }
+
+                .btn {
+                    margin-left: 120px;
+                    background-color: #cf112d;
+
+                }
+
+                .box-left {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: row-reverse;
+                    margin-right: 19px;
+                    position: relative;
+
+
+                    &:before {
+                        content: "أخبار مصر";
+                        background-color: #b04962;
+                        position: absolute;
+                        right: 4px;
+                        top: 70px;
+                        height: 20px;
+                        width: 80px;
+                        border-radius: 1px;
+                        color: #fff;
+                        text-align: center;
+                        font-weight: bold;
+
+
+                    }
+                }
+
+                .box-right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: row-reverse;
+                }
+
+                img {
+                    width: 150px;
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .left {
+            width: 30%;
+
+            .table {
+
+                // width: 30%;
+                .content-left {
+                    margin-top: -35px;
+                    // margin-left: 60px;
+                    margin-bottom: 50px;
+
+                    ul {
+
+                        color: black;
+                        border: 2px solid rgb(196, 192, 192);
+
+                        h2 {
+                            background-color: black;
+                            color: #fff;
+                            padding: 10px 80px;
+                            font-size: 28px;
+                            font-weight: bold;
+                            position: relative;
+
+                            &:before {
+                                content: "";
+                                background-color: #ce0b0b;
+                                position: absolute;
+                                left: -1px;
+                                top: 0;
+                                height: 48px;
+                                width: 20px;
+                                border-radius: 1px;
+                            }
+                        }
+
+                        li {
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            padding-right: 20px;
+                            flex-direction: row-reverse;
+                            font-size: 16px;
+                            font-weight: bold;
+                            border-bottom: 1px solid rgb(196, 192, 192);
+
+                            span {
+                                color: #fff;
+                            }
+
+                            p {
+                                margin-right: 10px;
+                                font-size: 17px;
+                                font-weight: bold;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
